@@ -24,3 +24,56 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ion-slides {
+    background-image: url(./assets/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-color: #DCDCDC;
+    font: 400 14px, justify;
+}
+
+.swiper-slide {
+    display: block;
+}
+
+.swiper-slide h2 {
+    margin-top: 0.5px;
+    font-weight: bold;
+}
+
+.swiper-slide img {
+    max-height: 50%;
+    max-width: 80%;
+    margin: 60px 0 40px;
+    pointer-events: none;
+    border-radius: 8px;
+}
+
+b {
+    font-weight: 500;
+}
+
+p {
+    text-align: justify;
+    padding: 0 40px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--ion-color-step-600, #60646b);
+}
+
+p b {
+    color: var(--ion-text-color, #000000);
+}  
+
+img {
+
+}
